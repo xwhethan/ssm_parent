@@ -14,6 +14,8 @@ public class UserServiceImpl implements IUserService {
 
 
 
+
+//自动注入userMapper
 	@Autowired
 	private UserMapper userMapper;
 
